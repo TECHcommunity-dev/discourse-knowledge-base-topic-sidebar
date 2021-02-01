@@ -482,7 +482,17 @@ body.custom-sidebar.category.category-knowledge-base .category-sidebar-knowledge
     grid-column-gap: 1%;
 }
 
+body.custom-sidebar.category.category-knowledge-base table.shared-drafts {
+	margin-top: -30px !important;
+}
 
+body.custom-sidebar.category.category-knowledge-base table.shared-drafts td.num.age.activity {
+	margin-top: 56px !important;
+}
+
+body.custom-sidebar.category.category-knowledge-base .topic-list tr.topic-list-item-separator td {
+	padding: 15px !important;
+}
 
 ///////////////////////////////////////////////
 
