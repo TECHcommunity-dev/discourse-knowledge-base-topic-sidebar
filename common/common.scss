@@ -86,3 +86,7 @@ body.custom-sidebar.category.category-knowledge-base .category.category-box.cate
 body.category.archetype-regular.category-knowledge-base .topic-area ul.d-toc {
     display: none;
 }
+
+body.category.archetype-regular.category-knowledge-base .d-toc-post .d-toc-article>.row {
+    border-right: 0px !important;
+}
