@@ -82,3 +82,7 @@ body.custom-sidebar.category.category-knowledge-base li[title~="bookmarked"], bo
 body.custom-sidebar.category.category-knowledge-base .category.category-box.category-box-video.no-category-boxes-style  {
     display: none;
 }
+
+body.category.archetype-regular.category-knowledge-base .topic-area ul.d-toc {
+    display: none;
+}
