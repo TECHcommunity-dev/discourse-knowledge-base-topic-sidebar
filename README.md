@@ -1,0 +1,1 @@
+# discourse-knowledge-base-topic-sidebar
