@@ -1,30 +1,30 @@
-body.categories-list.category-knowledge-base div[data-name="all"] {
+body.category.category-knowledge-base div[data-name="all"] {
     display: none;
 }
 
-body.categories-list.category-knowledge-base .category-title-description {
+body.category.category-knowledge-base .category-title-description {
     display: none !important;
 }
 
-body.categories-list.category-knowledge-base .category-title-knowledge-base h1 {
+body.category.category-knowledge-base .category-title-knowledge-base h1 {
     font-size: 1.7em !important;
 }
 
-body.categories-list.category-knowledge-base .topic-list .right {
+body.category.category-knowledge-base .topic-list .right {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-body.categories-list.category-knowledge-base .topic-list .pull-left {
+body.category.category-knowledge-base .topic-list .pull-left {
     margin-top: 13px;
     margin-right: 20px;
 }
 
-body.categories-list.category-knowledge-base .topic-list .posts{
+body.category.category-knowledge-base .topic-list .posts{
     display: none !important;
 }
 
-body.categories-list.category-knowledge-base .has-thumbnail,
+body.category.category-knowledge-base .has-thumbnail,
 body.category.archetype-regular.category-knowledge-base .title-wrapper .badge-wrapper,
 body.category.archetype-regular.category-knowledge-base-video .title-wrapper .badge-wrapper {
     display: none;
