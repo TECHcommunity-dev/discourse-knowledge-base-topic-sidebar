@@ -36,19 +36,19 @@
 }
 
 
-body.categories-list.category-knowledge-base .topic-list-thumbnail.no-thumbnail, body.tags-page.category-knowledge-base .topic-list-thumbnail.no-thumbnail{
+body.category.category-knowledge-base .topic-list-thumbnail.no-thumbnail, body.tags-page.category-knowledge-base .topic-list-thumbnail.no-thumbnail{
     display: none;
 }
 
-body.categories-list.category-knowledge-base .link-bottom-line a.badge-wrapper.none, body.tags-page.category-knowledge-base .link-bottom-line a.badge-wrapper.none,
-body.categories-list.category-knowledge-base .topic-item-stats a.badge-wrapper.none, body.tags-page.category-knowledge-base .topic-item-stats a.badge-wrapper.none{
+body.category.category-knowledge-base .link-bottom-line a.badge-wrapper.none, body.tags-page.category-knowledge-base .link-bottom-line a.badge-wrapper.none,
+body.category.category-knowledge-base .topic-item-stats a.badge-wrapper.none, body.tags-page.category-knowledge-base .topic-item-stats a.badge-wrapper.none{
     margin-top: 2px;
     margin-bottom: 4px;
     display: none;
 }
 
-body.categories-list.category-knowledge-base .topic-list .main-link a.title.raw-topic-link, body.tags-page.category-knowledge-base .topic-list .main-link a.title.raw-topic-link,
-body.categories-list.category-knowledge-base .topic-list .main-link a.title.raw-topic-link:visited, body.tags-page.category-knowledge-base .topic-list .main-link a.title.raw-topic-link:visited{
+body.category.category-knowledge-base .topic-list .main-link a.title.raw-topic-link, body.tags-page.category-knowledge-base .topic-list .main-link a.title.raw-topic-link,
+body.category.category-knowledge-base .topic-list .main-link a.title.raw-topic-link:visited, body.tags-page.category-knowledge-base .topic-list .main-link a.title.raw-topic-link:visited{
     color: var(--primary) !important;
 }
 
@@ -66,19 +66,19 @@ body.category.archetype-regular.category-knowledge-base .topic-body .contents a 
     color: blue !important;
 }
 
-body.categories-list.category-knowledge-base #navigation-bar a[href="/c/knowledge-base/6/l/top?max_posts=1"], body.tags-page.category-knowledge-base #navigation-bar a[href="/c/knowledge-base/6/l/top?max_posts=1"],
-body.categories-list.category-knowledge-base #navigation-bar a[href="/c/knowledge-base/6/l/latest?max_posts=1"], body.tags-page.category-knowledge-base #navigation-bar a[href="/c/knowledge-base/6/l/latest?max_posts=1"]{
+body.category.category-knowledge-base #navigation-bar a[href="/c/knowledge-base/6/l/top?max_posts=1"], body.tags-page.category-knowledge-base #navigation-bar a[href="/c/knowledge-base/6/l/top?max_posts=1"],
+body.category.category-knowledge-base #navigation-bar a[href="/c/knowledge-base/6/l/latest?max_posts=1"], body.tags-page.category-knowledge-base #navigation-bar a[href="/c/knowledge-base/6/l/latest?max_posts=1"]{
     display: none;
 }
 
-body.categories-list.category-knowledge-base .topic-list .posters a:first-child .avatar.latest:not(.single), body.tags-page.category-knowledge-base .topic-list .posters a:first-child .avatar.latest:not(.single){
+body.category.category-knowledge-base .topic-list .posters a:first-child .avatar.latest:not(.single), body.tags-page.category-knowledge-base .topic-list .posters a:first-child .avatar.latest:not(.single){
     border: 0 !important;
     box-shadow: none !important;
 }
 
-body.categories-list.category-knowledge-base .category-drop, body.tags-page.category-knowledge-base .category-drop,
-body.categories-list.category-knowledge-base li[title~="track"], body.tags-page.category-knowledge-base li[title~="Topics"],
-body.categories-list.category-knowledge-base li[title~="bookmarked"], body.tags-page.category-knowledge-base li[title~="bookmarked"],
-body.categories-list.category-knowledge-base .category.category-box.category-box-video.no-category-boxes-style  {
+body.category.category-knowledge-base .category-drop, body.tags-page.category-knowledge-base .category-drop,
+body.category.category-knowledge-base li[title~="track"], body.tags-page.category-knowledge-base li[title~="Topics"],
+body.category.category-knowledge-base li[title~="bookmarked"], body.tags-page.category-knowledge-base li[title~="bookmarked"],
+body.category.category-knowledge-base .category.category-box.category-box-video.no-category-boxes-style  {
     display: none;
 }
