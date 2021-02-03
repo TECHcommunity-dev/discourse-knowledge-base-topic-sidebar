@@ -99,3 +99,7 @@ body.category.archetype-regular.category-knowledge-base .d-toc-post .d-toc-artic
 html.anon body.category.archetype-regular.category-knowledge-base #topic-footer-buttons button {
     margin-bottom: 25px !important;
 }
+
+html.anon body.category.archetype-regular.category-knowledge-base .topic-meta-data div.edits {
+    display: none;
+}
