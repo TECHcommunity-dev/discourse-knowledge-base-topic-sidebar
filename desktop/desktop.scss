@@ -59,11 +59,12 @@ body.category.archetype-regular.category-knowledge-base #post_1 .row {
 body.category.archetype-regular.category-knowledge-base .topic-body,
 body.category.archetype-regular.category-knowledge-base .topic-avatar{
     background-color: transparent !important;
-    border-top: 1px solid var(--primary-low);
+   // border-top: 1px solid var(--primary-low);
 }
 
 body.category.archetype-regular.category-knowledge-base .topic-owner .topic-body {
     border-right: 1px solid var(--primary-low);
+    border-bottom: 1px solid var(--primary-low);
     background-color: transparent !important;
 }
 
