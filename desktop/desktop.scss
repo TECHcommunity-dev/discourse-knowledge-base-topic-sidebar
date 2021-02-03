@@ -606,6 +606,9 @@ body.custom-sidebar.tags-page .contents>.topic-list {
 body.category.archetype-regular.category-knowledge-base #post_1 .topic-body .topic-map{
 	//display: none !important;
 }
+body.category.archetype-regular.category-knowledge-base #post_1 .topic-body button.reply {
+    display: none !important;
+}
 
 body.category.archetype-regular.category-knowledge-base .topic-area .topic-status-info {
 	border-top: 0px !important;
