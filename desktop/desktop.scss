@@ -600,6 +600,7 @@ body.custom-sidebar.tags-page .contents>.topic-list {
     grid-template-columns: unset !important;
 }
 
-body.category.archetype-regular.category-knowledge-base #post_1 .topic-body .topic-map {
-	margin: 0px !important;
+body.category.archetype-regular.category-knowledge-base #post_1 .topic-body .topic-map,
+body.category.archetype-regular.category-knowledge-base #post_1 .topic-body button.reply {
+	display: none !important;
 }
