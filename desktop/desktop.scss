@@ -361,7 +361,8 @@ body.custom-sidebar.category.category-knowledge-base td.activity, body.tags-page
 
 body.custom-sidebar.category.category-knowledge-base .topic-list .views, body.tags-page.category-knowledge-base .topic-list .views,
 body.custom-sidebar.category.category-knowledge-base .topic-list .likes, body.tags-page.category-knowledge-base .topic-list .likes,
-body.custom-sidebar.category.category-knowledge-base .topic-list .posts, body.tags-page.category-knowledge-base .topic-list .posts{
+body.custom-sidebar.category.category-knowledge-base .topic-list .posts, body.tags-page.category-knowledge-base .topic-list .posts,
+body.custom-sidebar.category.category-knowledge-base .topic-list td.num.age.activity a, body.tags-page.category-knowledge-base .topic-list td.num.age.activity a {
     display: none !important;
 }
 
