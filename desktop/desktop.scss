@@ -52,8 +52,12 @@ body.category.archetype-regular.category-knowledge-base .time-gap {
 //////// end toni
 
 
-body.category.archetype-regular.category-knowledge-base #post_1 .row {
+/*body.category.archetype-regular.category-knowledge-base #post_1 .row {
     display: block !important;
+}*/
+
+body.category.archetype-regular.category-knowledge-base #post_1 .row div.post-notice.returning-user {
+	display: none !important;
 }
 
 body.category.archetype-regular.category-knowledge-base .topic-body,
