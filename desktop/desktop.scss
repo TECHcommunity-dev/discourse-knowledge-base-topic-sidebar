@@ -250,6 +250,11 @@ body.category.category-knowledge-base div[data-wrap="sidebar-newsletter-button"]
     margin-top: 15px;
     padding: 17px;
     margin-bottom: -12px;
+    display: none !important;
+}
+
+html.anon body.category.category-knowledge-base div[data-wrap="sidebar-newsletter-button"]{
+    display: block !important;
 }
 
 body.custom-sidebar.category.category-knowledge-base div[data-wrap="sidebar-newsletter-button"]:hover {
