@@ -198,18 +198,34 @@ body.category.archetype-regular.category-knowledge-base-video .post-stream div.t
 }
 
 
-body.category.archetype-regular.category-knowledge-base a.sidebar-contents-topics.sidebar-newsletter-button,
-body.category.archetype-regular.category-knowledge-base-video a.sidebar-contents-topics.sidebar-newsletter-button{
+body.category.archetype-regular.category-knowledge-base a.sidebar-newsletter-button,
+body.category.archetype-regular.category-knowledge-base-video a.sidebar-newsletter-button{
     background-color: #3cc1b7;
     color: var(--primary) !important;
     text-transform: uppercase;
     font-weight: bold !important;
     text-align: center;
     margin-top: 15px;
+    display: none !important;
+	
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #656565;
+    border-bottom: 1px solid var(--primary-low) !important;
+    padding: 15px 10px;
+    font-weight: unset;
+    position: relative;
+    z-index: 100;
 }
 
-body.category.archetype-regular.category-knowledge-base a.sidebar-contents-topics.sidebar-newsletter-button:hover,
-body.category.archetype-regular.category-knowledge-base-video a.sidebar-contents-topics.sidebar-newsletter-button:hover {
+html.anon body.category.archetype-regular.category-knowledge-base a.sidebar-newsletter-button,
+html.anon body.category.archetype-regular.category-knowledge-base-video a.sidebar-newsletter-button {
+    display: block !important;
+}
+
+
+body.category.archetype-regular.category-knowledge-base a.sidebar-newsletter-button:hover,
+body.category.archetype-regular.category-knowledge-base-video a.sidebar-newsletter-button:hover {
     color: var(--primary) !important;
     background-color: var(--tertiary-hover) !important;
     transition: all 0.25s;
