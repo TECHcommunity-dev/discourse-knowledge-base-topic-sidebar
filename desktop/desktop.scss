@@ -224,8 +224,8 @@ html.anon body.category.archetype-regular.category-knowledge-base-video a.sideba
 }
 
 
-body.category.archetype-regular.category-knowledge-base a.sidebar-newsletter-button:hover,
-body.category.archetype-regular.category-knowledge-base-video a.sidebar-newsletter-button:hover {
+body.category.archetype-regular.category-knowledge-base .topic-sidebar-contents a.sidebar-newsletter-button:hover,
+body.category.archetype-regular.category-knowledge-base-video .topic-sidebar-contents a.sidebar-newsletter-button:hover {
     color: var(--primary) !important;
     background-color: var(--tertiary-hover) !important;
     transition: all 0.25s;
