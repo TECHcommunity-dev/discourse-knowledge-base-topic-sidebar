@@ -99,3 +99,9 @@ html.anon body.category.archetype-regular.category-knowledge-base #topic-footer-
 html.anon body.category.archetype-regular.category-knowledge-base .topic-meta-data div.edits {
     display: none;
 }
+
+body.category.archetype-regular.category-knowledge-base .posts-wrapper>div:not(.loading-container) .post-stream .topic-sidebar-contents,
+body.category.archetype-regular.category-knowledge-base-video .posts-wrapper>div:not(.loading-container) .post-stream .topic-sidebar-contents 
+{
+	display: none !important;
+}
