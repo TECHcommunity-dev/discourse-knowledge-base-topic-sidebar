@@ -105,3 +105,19 @@ body.category.archetype-regular.category-knowledge-base-video .posts-wrapper>div
 {
 	display: none !important;
 }
+
+/*hide pdfs in moved blog category*/
+body.archetype-regular.category.category-knowledge-base .topic-body .md-table:first-of-type img[src*="https://aws1.discourse-cdn.com/techcommunity/original/2X/b/b5c3cd84af8b27483fda1da8ce75a5b51941ae12.png"],
+body.archetype-regular.category.category-knowledge-base .topic-body .md-table:first-of-type img[src*="https://aws1.discourse-cdn.com/techcommunity/original/2X/b/b5c3cd84af8b27483fda1da8ce75a5b51941ae12.png"]+span,
+body.archetype-regular.category.category-knowledge-base .topic-body .md-table:first-of-type td img[src*="http://communities.softwareag.com/image/image_gallery?%20uuid=202eb7e1-9148-4c65-b29a-54c4302ab65e&groupId=10157&t=1326987658425"],
+body.archetype-regular.category.category-knowledge-base .topic-body .md-table:first-of-type td img[src*="http://communities.softwareag.com/image/image_gallery"],
+body.archetype-regular.category.category-knowledge-base .topic-body .md-table:first-of-type a[href*="http://techcommunity.softwareag.com/ecosystem/download/techniques/"],
+body.archetype-regular.category.category-knowledge-base .topic-body .md-table:first-of-type a[href*="http://techcommunity.softwareag.com/protected/download/techniques/"],
+body.archetype-regular.category.category-knowledge-base .topic-body .md-table:first-of-type a[href*="http://communities.softwareag.com/protected/download/techniques"],
+body.archetype-regular.category.category-knowledge-base .topic-body .md-table:first-of-type a[href*="http://communities.softwareag.com/download/techniques/"]
+{
+    display: none !important;
+}
+
+/*end hide pdfs in moved blog category*/
+
