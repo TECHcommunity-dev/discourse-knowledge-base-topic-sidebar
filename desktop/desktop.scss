@@ -872,5 +872,8 @@ body.category-header.tags-page.category-knowledge-base .category-sidebar-content
     margin-top: 0 !important;
 }
 
-
 /*end KB sidebar on tag pages*/
+
+body.category.archetype-regular.category-knowledge-base #topic-footer-buttons button[aria-label="Reply"] {
+	float: left !important;
+}
