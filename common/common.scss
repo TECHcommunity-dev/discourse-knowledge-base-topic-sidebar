@@ -121,5 +121,5 @@ body.category.archetype-regular.category-knowledge-base .suggested-topics-wrappe
 body.category.archetype-regular.category-knowledge-base .suggested-topics-wrapper td.posts, 
 body.category.archetype-regular.category-knowledge-base .suggested-topics-wrapper td.likes, 
 body.category.archetype-regular.category-knowledge-base .suggested-topics-wrapper td.num.age.activity {
-	display: none;
+	display: none !important;
 }
