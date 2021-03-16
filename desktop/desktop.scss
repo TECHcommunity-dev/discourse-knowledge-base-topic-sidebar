@@ -877,3 +877,11 @@ body.category-header.tags-page.category-knowledge-base .category-sidebar-content
 body.category.archetype-regular.category-knowledge-base #topic-footer-buttons button[aria-label="Reply"] {
 	float: left !important;
 }
+
+body.archetype-regular.category.category-knowledge-base #topic-footer-buttons button[aria-label="Reply"]:after {
+	content: "Leave a comment";
+}
+
+body.archetype-regular.category.category-knowledge-base #topic-footer-buttons span.d-button-label {
+	display: none !important;
+}
