@@ -882,6 +882,6 @@ body.archetype-regular.category.category-knowledge-base #topic-footer-buttons bu
 	content: "Leave a comment";
 }
 
-body.archetype-regular.category.category-knowledge-base #topic-footer-buttons span.d-button-label {
+body.archetype-regular.category.category-knowledge-base #topic-footer-buttons button[aria-label="Reply"] span.d-button-label {
 	display: none !important;
 }
