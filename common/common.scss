@@ -121,10 +121,3 @@ body.archetype-regular.category.category-knowledge-base .topic-body .md-table:fi
 
 /*end hide pdfs in moved blog category*/
 
-body.archetype-regular.category.category-knowledge-base #topic-footer-buttons button[aria-label="Reply"]:after {
-	content: "Leave a comment";
-}
-
-body.archetype-regular.category.category-knowledge-base #topic-footer-buttons span.d-button-label {
-	display: none !important;
-}
