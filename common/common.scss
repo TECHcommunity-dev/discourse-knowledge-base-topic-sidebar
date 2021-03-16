@@ -121,3 +121,9 @@ body.archetype-regular.category.category-knowledge-base .topic-body .md-table:fi
 
 /*end hide pdfs in moved blog category*/
 
+body.category.archetype-regular.category-knowledge-base .suggested-topics-wrapper thead, 
+body.category.archetype-regular.category-knowledge-base .suggested-topics-wrapper td.posts, 
+body.category.archetype-regular.category-knowledge-base .suggested-topics-wrapper td.likes, 
+body.category.archetype-regular.category-knowledge-base .suggested-topics-wrapper td.num.age.activity {
+	display: none;
+}
