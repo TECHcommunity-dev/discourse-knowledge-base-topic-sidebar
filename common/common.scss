@@ -60,12 +60,8 @@ body.tags-page.category-knowledge-base li[title~="Topics"],
 body.custom-sidebar.category.category-knowledge-base li[title~="bookmarked"], 
 body.tags-page.category-knowledge-base li[title~="bookmarked"],
 body.custom-sidebar.category.category-knowledge-base .category.category-box.category-box-video.no-category-boxes-style,
-body.custom-sidebar.category.category-knowledge-base .navigation-container .solved-status-filter {
-    display: none !important;
-}
-
-//hide unanswered button
-body.category-knowledge-base li[title="Topics that have not been answered"] {
+body.custom-sidebar.category.category-knowledge-base .navigation-container .solved-status-filter,
+body.category-knowledge-base li[title="Topics that have not been answered"]{
     display: none !important;
 }
 
