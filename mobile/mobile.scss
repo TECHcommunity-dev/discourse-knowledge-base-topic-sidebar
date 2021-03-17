@@ -1,3 +1,4 @@
+/*topic-list changes*/
 body.custom-sidebar.category.category-knowledge-base div[data-name="all"] {
     display: none;
 }
@@ -29,8 +30,9 @@ body.category.archetype-regular.category-knowledge-base .title-wrapper .badge-wr
 body.category.archetype-regular.category-knowledge-base-video .title-wrapper .badge-wrapper {
     display: none;
 }
+/*end topic-list changes*/
 
-
+/*topic-body changes*/
 body.category.archetype-regular.category-knowledge-base .topic-meta-data {
     margin-left: 30px !important;
 }
@@ -43,3 +45,5 @@ body.category.archetype-regular.category-knowledge-base #post_1 .topic-body .top
     margin-left: 0px !important;
     width: auto !important;
 }
+
+/*end topic-body changes*/
