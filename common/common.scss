@@ -128,3 +128,11 @@ body.category.archetype-regular.category-knowledge-base #main-outlet #banner,
 body.category.archetype-regular.category-news #main-outlet #banner {
 	display: none;
 }
+
+body.category-knowledge-base li[title="Topics that have not been answered"] {
+    display: none !important;
+}
+
+body.category.archetype-regular.category-knowledge-base .topic-body .contents a {
+	color: blue !important;
+}
