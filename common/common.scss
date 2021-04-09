@@ -138,4 +138,8 @@ body.archetype-regular.category.category-knowledge-base .topic-body .md-table:fi
 div[data-wrap="moved-attachments"] img {
 	display: none !important;
 }
+
+div[data-wrap="moved-attachments"] p:empty {
+	display: none !important;
+}
 /*end hide pdfs in moved blog category*/
