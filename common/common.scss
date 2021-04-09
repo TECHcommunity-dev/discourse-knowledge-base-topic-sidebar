@@ -135,8 +135,7 @@ body.archetype-regular.category.category-knowledge-base .topic-body .md-table:fi
     display: none;
 }
 
-div[data-wrap="moved-attachments"] img,
-div[data-wrap="moved-attachments"] p:blank {
+div[data-wrap="moved-attachments"] img {
 	display: none !important;
 }
 /*end hide pdfs in moved blog category*/
