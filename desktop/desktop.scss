@@ -365,8 +365,7 @@ body.custom-sidebar.category.category-knowledge-base .topic-list
     margin-top: -32px !important;
 }
 
-body.custom-sidebar.category.category-knowledge-base:not(.staff) .topic-list thead th, 
-body.tags-page.category-knowledge-base:not(.staff) .topic-list thead th {
+body.custom-sidebar.category.category-knowledge-base .topic-list thead th.activity {
     display: none !important;
 }
 
