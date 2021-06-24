@@ -360,12 +360,19 @@ body.custom-sidebar.category.category-knowledge-base .topic-list
     margin-top: -32px !important;
 }
 
-body.custom-sidebar.category.category-knowledge-base .topic-list thead th.activity,
-body.custom-sidebar.category.category-knowledge-base:not(.staff) .topic-list thead th.default{
+body.custom-sidebar.category.category-knowledge-base .topic-list thead th.activity {
     display: none !important;
 }
 body.custom-sidebar.category.category-knowledge-base .topic-list thead th.default {
     padding-bottom: 4px !important;
+}
+
+body.custom-sidebar.category.category-knowledge-base .topic-list thead th.default{
+    visibility: hidden;
+}
+
+body.custom-sidebar.category.category-knowledge-base .topic-list thead th.default .bulk-select {
+	visibility: visible !important;
 }
 
 body.custom-sidebar.category.category-knowledge-base.staff .navigation-container {
