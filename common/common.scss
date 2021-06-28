@@ -111,6 +111,26 @@ body.category.archetype-regular.category-knowledge-base .topic-body .contents a 
 	color: blue !important;
 }
 
+//edit comments section
+body.archetype-regular.category.category-knowledge-base {
+    article#post_2:before {
+        content: "Comments";
+        position: relative;
+        bottom: 15px;
+        font-size: 1.17rem;
+        font-weight: bold;
+        line-height: 2.5em; 
+    }
+    
+    .topic-post {
+        padding-bottom: 30px !important;
+    }
+    
+    .post-stream .time-gap+.topic-post article#post_2:before {
+        bottom: 10px !important;
+    }
+}
+
 /*end topic-body changes*/
 
 /*hide pdfs in moved blog category*/
