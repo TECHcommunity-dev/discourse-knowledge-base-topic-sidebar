@@ -4,6 +4,7 @@ const h = require("virtual-dom").h;
 const path = window.location.pathname;
 
 const content = [];
+const topic-sidebar-contents = [];
 
 
 content.push(
@@ -185,13 +186,17 @@ content.push(
       
     )
     
-
+topic-sidebar-contents.push(
+    h (
+        'div.topic-sidebar-contents', content
+      )
+)
 
  api.decorateWidget("post-stream:after", helper => {
     if (($('.badge-wrapper').attr('href') === "/c/knowledge-base/6") ) {
   
         return h(
-            'div.topic-sidebar-contents', content
+            'div.topic-sidebar', topic-sidebar-contents
         );
     
     }
