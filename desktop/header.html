@@ -4,7 +4,7 @@ const h = require("virtual-dom").h;
 const path = window.location.pathname;
 
 const content = [];
-const topic-sidebar-contents = [];
+const topicSidebarContents = [];
 
 
 content.push(
@@ -186,7 +186,7 @@ content.push(
       
     )
     
-topic-sidebar-contents.push(
+topicSidebarContents.push(
     h (
         'div.topic-sidebar-contents', content
       )
@@ -196,7 +196,7 @@ topic-sidebar-contents.push(
     if (($('.badge-wrapper').attr('href') === "/c/knowledge-base/6") ) {
   
         return h(
-            'div.topic-sidebar', topic-sidebar-contents
+            'div.topic-sidebar', topicSidebarContents
         );
     
     }
