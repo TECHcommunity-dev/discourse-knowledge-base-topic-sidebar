@@ -192,7 +192,7 @@ topicSidebarContents.push(
       )
 )
 
- api.decorateWidget("post-stream:after", helper => {
+ api.decorateWidget("post-stream:before", helper => {
     if (($('.badge-wrapper').attr('href') === "/c/knowledge-base/6") ) {
   
         return h(
