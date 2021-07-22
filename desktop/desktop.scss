@@ -6,7 +6,8 @@ a.d-toc-anchor-link svg {
     color: #fafafa !important;
 }
 
-body.category.archetype-regular.category-knowledge-base #post_1 .topic-body .contents {
+body.category.archetype-regular.category-knowledge-base #post_1 .topic-body .contents,
+body.category.archetype-regular.category-knowledge-base-video #post_1 .topic-body .contents{
     padding: 20px 20px 0px 0px !important;
     margin-top: 15px;
 }
@@ -597,6 +598,7 @@ body.category.archetype-regular.category-knowledge-base-video #post_1 .topic-bod
 	padding-top: 5px !important;
 	border-top: unset !important;
 	border-right: 1px solid var(--primary-low);
+	border-bottom: 1px solid var(--primary-low);
 	width: calc(815px + (11px * 2)) !important;
 }
 
