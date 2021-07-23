@@ -575,12 +575,13 @@ body.category.archetype-regular.category-knowledge-base .topic-header-extra a[da
 
 /*KB subcategory Video changes*/
 body.category.archetype-regular.category-knowledge-base-video #post_1 .topic-avatar {
-    padding-top: 4px !important;
+    padding-top: 2px !important;
     height: 0px;
     border-top: none;
     background: none;
     float: left;
     z-index: 2;
+    width: 0px !important;
 }
 
 body.category.archetype-regular.category-knowledge-base-video #post_1 .topic-avatar img {
