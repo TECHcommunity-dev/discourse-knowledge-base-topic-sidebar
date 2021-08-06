@@ -68,10 +68,6 @@ body.category-knowledge-base li[title="Topics that have not been answered"]{
 /*end topic-list-changes*/
 
 /*topic-body changes*/
-/*body.category.archetype-regular.category-knowledge-base .topic-area ul.d-toc {
-    display: none;
-}*/
-
 body.category.archetype-regular.category-knowledge-base .d-toc-post .d-toc-article>.row {
     border-right: 0px !important;
 }
@@ -79,12 +75,6 @@ body.category.archetype-regular.category-knowledge-base .d-toc-post .d-toc-artic
 html.anon body.category.archetype-regular.category-knowledge-base .topic-meta-data div.edits {
     display: none;
 }
-
-/*body.category.archetype-regular.category-knowledge-base .posts-wrapper>div:not(.loading-container) .post-stream .topic-sidebar-contents,
-body.category.archetype-regular.category-knowledge-base-video .posts-wrapper>div:not(.loading-container) .post-stream .topic-sidebar-contents 
-{
-	display: none !important;
-}*/
 
 body.category.archetype-regular.category-knowledge-base #post_1 .topic-avatar img.avatar, 
 .category-news #post_1 .topic-avatar img.avatar {
@@ -131,11 +121,6 @@ body.archetype-regular.category.category-knowledge-base {
         bottom: 10px !important;
     }
 }
-
-/*body.archetype-regular.category.category-knowledge-base .topic-post:not(.wiki) .topic-avatar {
-    width: 32px !important;
-}*/
-
 /*end topic-body changes*/
 
 /*hide pdfs in moved blog category*/
@@ -192,8 +177,6 @@ body.category.category-header.category-knowledge-base-video .link-bottom-line {
     max-height: 3em;
     min-height: 3em;
     transition: 0.5s;
-    //transition: 0.5s transform 0.5s;
-    //transition-timing-function: ease-in-out;
 }
 
 body.category.category-header.category-knowledge-base-video .topic-thumbnails-masonry {
