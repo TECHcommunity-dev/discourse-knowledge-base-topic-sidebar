@@ -235,7 +235,7 @@ body.category.archetype-regular.category-knowledge-base-video .topic-sidebar-con
 
 body.category.category-knowledge-base div[data-wrap="sidebar-newsletter-button"]{
     background-color: #3cc1b7;
-    text-transform: uppercase;
+   // text-transform: uppercase;
     font-weight: bold !important;
     text-align: center;
     margin-top: 15px;
@@ -254,7 +254,7 @@ body.custom-sidebar.category.category-knowledge-base div[data-wrap="sidebar-news
 }
 
 body.custom-sidebar.category.category-knowledge-base .category-sidebar-contents div[data-wrap="sidebar-newsletter-button"] a {
-    color: var(--primary) !important;
+    color: var(--secondary) !important;
 }
 
 body.category.archetype-regular.category-knowledge-base .post-stream .topic-sidebar-contents,
@@ -318,7 +318,7 @@ body.custom-sidebar.category.category-knowledge-base .category-sidebar-contents 
     font-size: 1.1em;
               font-weight: bold;
               color: #656565;
-              border-bottom: 1px solid var(--primary-low) !important;
+             // border-bottom: 1px solid var(--primary-low) !important;
               display: block !important;
               padding: 15px 10px;
               font-weight: unset;
@@ -809,7 +809,7 @@ body.category-header.tags-page.category-knowledge-base .category-sidebar-content
 body.category-header.tags-page.category-knowledge-base .category-sidebar h2 {
     margin: -3px 0px 0px -3px !important;
     font-size: 1.5em !important;
-    border-bottom: 1px solid var(--primary-low) !important;
+   // border-bottom: 1px solid var(--primary-low) !important;
     padding: 0px 8px 15px 8px;
 }
 
