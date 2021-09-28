@@ -217,6 +217,44 @@ body.category.category-header.category-knowledge-base-video .topic-list td.num.a
 }
 //end KB video category
 
-.category-knowledge-base .cooked {
-    padding-left: 0px !important;
+body.category-knowledge-base,
+body.category-knowledge-base-video {
+    .cooked {
+        padding-left: 0px !important;
+    }
 }
+
+// Add Back to button on KB articles
+body.category.archetype-regular.category-knowledge-base,
+body.category.archetype-regular.category-knowledge-base-video {
+    #topic-title h1 {
+        margin: 20px 0px 20px 0px;
+    }
+}
+
+
+body.category.archetype-regular.category-knowledge-base,
+body.category.archetype-regular.category-knowledge-base-video {
+    .title-wrapper .topic-category {
+        .badge-wrapper {
+            display: block !important;
+            top: 85px;
+            position: absolute;
+            
+            .badge-category {
+	             margin-left: 5px;
+            }
+        }
+        
+        .badge-wrapper:nth-of-type(2) {
+            padding-left: 163px;
+        }
+        
+        .badge-wrapper:first-child:before {
+            content: "Back to";
+        }
+    
+    }
+}
+
+// end Add Back to button on KB articles
