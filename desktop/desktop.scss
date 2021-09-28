@@ -854,3 +854,7 @@ body.tags-page.category-knowledge-base #main>div:first-child{
 .category-knowledge-base-video .loading-container .topic-timer-info {
 	border-top: none !important;
 }
+
+body.custom-sidebar.category.category-knowledge-base tr, body.tags-page.category-knowledge-base tr {
+    width: 100% !important;
+} 
