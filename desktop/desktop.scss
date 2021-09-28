@@ -707,7 +707,6 @@ body.category-header.tags-page.category-knowledge-base .discourse-tags, body.tag
 
 
 body.category-header.tags-page.category-knowledge-base .category-sidebar-knowledge-base {
-    border: 1px solid var(--primary-low) !important;
     margin-top: 12px;
     width: 290px;
 }
@@ -800,14 +799,13 @@ body.category-header.tags-page.category-knowledge-base .category-sidebar-content
 }
 
 body.category-header.tags-page.category-knowledge-base .category-sidebar-contents .emoji-custom[title=":twitter:"] {
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 body.category-header.tags-page.category-knowledge-base .category-sidebar h2 {
     margin: -3px 0px 0px -3px !important;
     font-size: 1.5em !important;
-   // border-bottom: 1px solid var(--primary-low) !important;
-    padding: 0px 8px 15px 8px;
+    padding: 0px 8px 20px 8px;
 }
 
 body.category-header.tags-page.category-knowledge-base .category-sidebar {
@@ -833,9 +831,8 @@ body.category-header.tags-page.category-knowledge-base .category-sidebar-content
     font-size: 1.1em;
               font-weight: bold;
               color: #656565;
-         //     border-bottom: 1px solid var(--primary-low) !important;
               display: block !important;
-              padding: 15px 10px;
+              padding: 10px 0px;
               font-weight: unset;
 }
 
