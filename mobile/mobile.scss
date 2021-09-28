@@ -46,4 +46,14 @@ body.category.archetype-regular.category-knowledge-base #post_1 .topic-body .top
     width: auto !important;
 }
 
+body.category.archetype-regular.category-knowledge-base,
+body.category.archetype-regular.category-knowledge-base-video {
+    .title-wrapper .topic-category {
+        .badge-wrapper {
+            top: -5px !important;
+        }
+    }
+}
+
 /*end topic-body changes*/
+
