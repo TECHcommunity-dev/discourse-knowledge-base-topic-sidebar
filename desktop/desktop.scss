@@ -854,3 +854,11 @@ body.tags-page.category-knowledge-base #main>div:first-child{
 body.custom-sidebar.category.category-knowledge-base tr, body.tags-page.category-knowledge-base tr {
     width: 100% !important;
 } 
+
+body.category.archetype-regular.category-knowledge-base,
+body.category.archetype-regular.category-knowledge-base-video {
+    .consent_banner.alert, #banner {
+        margin-top: 1.5em;
+	    margin-bottom: 0 !important;
+    }
+}
