@@ -708,10 +708,8 @@ body.category-header.tags-page.category-knowledge-base .discourse-tags, body.tag
 
 body.category-header.tags-page.category-knowledge-base .category-sidebar-knowledge-base {
     border: 1px solid var(--primary-low) !important;
-    margin-top: 35px;
-    background: #fff;
-    border-radius: 7px;
-    width: 235px;
+    margin-top: 12px;
+    width: 290px;
 }
 
 body.category-header.tags-page.category-knowledge-base .custom-sidebar .contents>.topic-list>.category-sidebar {
@@ -775,13 +773,11 @@ body.category-header.tags-page.category-knowledge-base .category-sidebar-content
 
 body.category-header.tags-page.category-knowledge-base .category-sidebar-contents div[data-wrap="sidebar-newsletter-button"] {
     background-color: #3cc1b7;
-  //  text-transform: uppercase;
     font-weight: bold !important;
     text-align: center;
     margin-top: 15px;
     padding: 17px;
     margin-bottom: -12px;
-    display: none !important;
 }
 
 html.anon body.category-header.tags-page.category-knowledge-base div[data-wrap="sidebar-newsletter-button"]{
