@@ -388,16 +388,11 @@ body.custom-sidebar.category.category-knowledge-base .topic-list tbody, body.tag
     border-top: none;
 }
 
-body.custom-sidebar.category.category-knowledge-base tr, body.tags-page.category-knowledge-base tr {
-    width: 100% !important;
-} 
-
 body.custom-sidebar.category.category-knowledge-base .topic-list .topic-list-item, body.tags-page.category-knowledge-base .topic-list .topic-list-item {
     border: 1px solid var(--primary-low) !important;
     margin-bottom: 9px !important;
     display: inline-block !important;
     background: #ffffff !important;
-  //  border-radius: 7px;
     box-shadow: 0px 0px 5px 1px #e4e5e5;
 }
 
