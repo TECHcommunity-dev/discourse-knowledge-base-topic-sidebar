@@ -108,7 +108,8 @@ body.category.archetype-regular.category-knowledge-base .topic-body .contents a 
 }
 
 //edit comments section
-body.archetype-regular.category.category-knowledge-base {
+body.archetype-regular.category.category-knowledge-base,
+body.archetype-regular.category.category-knowledge-base-video {
     article#post_2:before {
         content: "Comments";
         position: relative;
