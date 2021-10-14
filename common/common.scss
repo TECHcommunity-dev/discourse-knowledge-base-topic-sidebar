@@ -16,8 +16,11 @@
 }
 
 @media (min-width: 1100px) {
-    body.category.archetype-regular.category-knowledge-base .topic-body {
-        width: calc(815px + (11px * 2)) !important;
+    body.category.archetype-regular.category-knowledge-base,
+    body.category.archetype-regular.category-knowledge-base-video {
+	.topic-body {
+        	width: calc(815px + (11px * 2)) !important;
+	 }
     }
 }
 
