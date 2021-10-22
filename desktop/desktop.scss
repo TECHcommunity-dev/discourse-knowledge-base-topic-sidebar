@@ -124,21 +124,22 @@ body.category.archetype-regular.category-knowledge-base-video {
 body.category.archetype-regular.category-knowledge-base {
 	.topic-list {
 		.discourse-tags { 
-    		margin-left: -5px !important;
+    			margin-left: -5px !important;
 		}
-	}
-
-	.topic-meta-data {
-		flex-direction: unset !important;
-    	margin-left: 15px !important;
 	}
 
 	#post_1 {
 		.topic-avatar {
 		    padding-top: 4px !important;
 		}
+
+		.topic-meta-data {
+			flex-direction: unset !important;
+	    		margin-left: 15px !important;
+		}
 	}
 }
+
 /*end topic-body changes*/
 
 // topic-meta-data changes
