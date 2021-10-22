@@ -8,47 +8,62 @@ a.d-toc-anchor-link svg {
     color: #fafafa !important;
 }
 
-body.category.archetype-regular.category-knowledge-base #post_1 .topic-body .contents,
-body.category.archetype-regular.category-knowledge-base-video #post_1 .topic-body .contents{
-    padding: 0px 20px 0px 0px !important;
-    margin-top: 20px;
+body.category.archetype-regular.category-knowledge-base,
+body.category.archetype-regular.category-knowledge-base-video {
+	#post_1 {
+		.topic-body {
+			.contents{
+				padding: 0px 20px 0px 0px !important;
+    			margin-top: 20px;
+			}
+
+			.topic-madip {
+				margin: 20px !important;
+			}
+		}
+	}
+
+	.cooked {
+		h1, h2, h3, h4, h5 {
+			margin: 24px 0 10px;
+		}
+	}
+
+	.d-editor-preview {
+		h2, h3, h4, h5, h6 {
+			margin: 24px 0 10px;
+		}
+	}
+
+	#new-create-topic {
+		display: none;
+	}
+
+	#topic-title {
+		h1 {
+			font-size: 2.4em;	
+		}
+	}
+
+	.topic-post {
+		.row {
+			justify-content: unset !important;
+		}
+	}
+
+	.time-gap {
+		margin: 0 0 20px 0 !important;
+	}
 }
 
-body.category.archetype-regular.category-knowledge-base .cooked h1, 
-body.category.archetype-regular.category-knowledge-base .cooked h2, 
-body.category.archetype-regular.category-knowledge-base .cooked h3, 
-body.category.archetype-regular.category-knowledge-base .cooked h4, 
-body.category.archetype-regular.category-knowledge-base .cooked h5, 
+
 .cooked h6, 
-.d-editor-preview h1, 
-body.category.archetype-regular.category-knowledge-base .d-editor-preview h2, 
-body.category.archetype-regular.category-knowledge-base .d-editor-preview h3, 
-body.category.archetype-regular.category-knowledge-base .d-editor-preview h4, 
-body.category.archetype-regular.category-knowledge-base .d-editor-preview h5, 
-body.category.archetype-regular.category-knowledge-base .d-editor-preview h6 {
-    margin: 24px 0 10px;
+.d-editor-preview h1 {
+	margin: 24px 0 10px;
 }
 
-body.category.archetype-regular.category-knowledge-base #new-create-topic,
-body.category.archetype-regular.category-knowledge-base-video #new-create-topic{
-    display: none;
-}
-
-body.category.archetype-regular.category-knowledge-base #topic-title h1, 
 .category-news #topic-title h1 {
     font-size: 2.4em;
-}
-
-body.category.archetype-regular.category-knowledge-base #post_1 .topic-body .topic-madip {
-    margin: 20px !important;
-}
-
-body.category.archetype-regular.category-knowledge-base .topic-post .row {
-    justify-content: unset !important;
-}
-
-body.category.archetype-regular.category-knowledge-base .time-gap {
-    margin: 0 0 20px 0 !important;
 }
 
 
