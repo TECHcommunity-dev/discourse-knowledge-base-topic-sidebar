@@ -16,6 +16,11 @@ a.d-toc-anchor-link svg {
     font-size: 2.4em;
 }
 
+.category-news #post_1 .topic-body .topic-meta-data {
+    flex-direction: unset !important;
+    margin-left: 15px !important;
+}
+
 body.category.archetype-regular.category-knowledge-base,
 body.category.archetype-regular.category-knowledge-base-video {
 	#post_1 {
@@ -88,9 +93,15 @@ body.category.archetype-regular.category-knowledge-base-video {
 	}
 
 	#topic-title {
-		h1 {
-			font-size: 2.4em;	
+		.title-wrapper {     
+		    width: 78% !important;  
+
+		   h1 {
+				font-size: 2.4em;	
+			}    
 		}
+
+		display: block !important;
 	}
 
 	.topic-post {
@@ -116,50 +127,47 @@ body.category.archetype-regular.category-knowledge-base {
     		margin-left: -5px !important;
 		}
 	}
-}
 
+	.topic-meta-data {
+		flex-direction: unset !important;
+    	margin-left: 15px !important;
+	}
+
+	#post_1 {
+		.topic-avatar {
+		    padding-top: 4px !important;
+		}
+	}
+}
 /*end topic-body changes*/
 
 // topic-meta-data changes
-body.category.archetype-regular.category-knowledge-base .topic-meta-data .second,
-body.category.archetype-regular.category-knowledge-base .topic-meta-data .poster-icon-container,
-body.category.archetype-regular.category-knowledge-base .topic-meta-data .svg-icon-title {
-              display: none !important;
-}
+body.category.archetype-regular.category-knowledge-base,
+body.category.archetype-regular.category-knowledge-base-video {
+	.topic-meta-data {
+		.svg-icon-title, .poster-icon-container, .second {
+			display: none !important;
+		}
 
-body.category.archetype-regular.category-knowledge-base #topic-title {
-              display: block !important;
-}
+		.edits {
+			position: absolute;
+		    right: 0;
+		    margin-bottom: 7px;
+		}
 
-body.category.archetype-regular.category-knowledge-base .topic-owner .topic-meta-data .post-infos .post-date {
-              margin-bottom: 0px !important;
-	 
-}
+		.names{
+		    margin-right: unset !important;
+		    flex: unset !important;
+		}
+	}
 
-body.category.archetype-regular.category-knowledge-base .topic-meta-data .edits {
-              position: absolute;
-              right: 0;
-              margin-bottom: 7px;
-}
-
-body.category.archetype-regular.category-knowledge-base #post_1 .topic-body .topic-meta-data, 
-.category-news #post_1 .topic-body .topic-meta-data {
-    flex-direction: unset !important;
-    margin-left: 15px !important;
-}
-
-body.category.archetype-regular.category-knowledge-base #post_1 .topic-body .topic-meta-data .names,
-body.category.archetype-regular.category-knowledge-base-video #post_1 .topic-body .topic-meta-data .names{
-    margin-right: unset !important;
-    flex: unset !important;
-}
-
-body.category.archetype-regular.category-knowledge-base #post_1 .topic-avatar {
-    padding-top: 4px !important;
-}
-
-body.category.archetype-regular.category-knowledge-base #topic-title .title-wrapper {     
-    width: 78% !important;      
+	.topic-owner {
+		.topic-meta-data {
+			.post-infos .post-date {
+				margin-bottom: 0px !important;
+			}
+		}
+	}
 }
 
 // end topic-meta-data changes
