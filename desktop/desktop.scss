@@ -375,7 +375,6 @@ body.category.archetype-regular.category-knowledge-base .container.posts {
 
 
 /*topic list changes*/
-//toni
 
 body.custom-sidebar.category.category-knowledge-base {
 	.topic-list {
@@ -407,10 +406,22 @@ body.custom-sidebar.category.category-knowledge-base {
 		    display: inline-block !important;
 		    background: #ffffff !important;
 		    box-shadow: 0px 0px 5px 1px #e4e5e5;
+
+		    td.main-link.clearfix {
+		    	padding-bottom: 29px !important;
+			    padding-top: 27px !important;
+			    padding-right: 27px !important;
+		    }
+
+		    .posters a:not(:first-child) {
+		    	display: none !important;
+		    }
 		}
 
 		.posters {
 			width: 4%;
+			padding-top: 15px !important;
+    		padding-left: 22px !important;
 
 			&>a {
 				margin-left: 7px;
@@ -421,6 +432,10 @@ body.custom-sidebar.category.category-knowledge-base {
 		.num.activity a {
 			padding: 0px 5px;
     		font-size: .8706em;
+		}
+
+		tr.topic-list-item-separator td {
+		    padding: 15px !important;
 		}
 	}
 
@@ -460,6 +475,7 @@ body.custom-sidebar.category.category-knowledge-base {
 
 	a.title.raw-link.raw-topic-link {
 		font-weight: bold;
+		font-size: 1.54rem !important;
 	}
 
 	.category-sidebar-knowledge-base {
@@ -469,19 +485,42 @@ body.custom-sidebar.category.category-knowledge-base {
 	    p {
     		font-size: 1.15em;
 		}
+
+		.cooked {
+		    padding: 1.5em 1.1em !important;
+		}
+	}
+
+	.category-sidebar {
+	    top: 0px !important;
 	}
 
 	.user-title {
     	display: none;
 	}
 
-	.custom-sidebar {
-		.contents>.topic-list>.category-sidebar {
-    		max-height: 155vh !important;
-		}
+	.contents>.topic-list {
+	    grid-template-columns: 77.5% 25.5% !important;
+	    grid-column-gap: 1%;
 
-		&.sidebar-right .contents>.topic-list {
-    		grid-template-columns: 73% 25% !important;
+	    &>.category-sidebar {
+		    position: relative !important;
+		}
+	}
+
+	.topic-thumbnails-list {
+		.topic-list-thumbnail {
+			margin-right: 29px !important;
+    		width: 180px !important;
+    		height: 130px !important;
+		}
+	}
+
+	table.shared-drafts {
+	    margin-top: -30px !important;
+
+	    td.num.age.activity {
+		    margin-top: 56px !important;
 		}
 	}
 
@@ -499,10 +538,22 @@ body.tags-page.category-knowledge-base {
 		    display: inline-block !important;
 		    background: #ffffff !important;
 		    box-shadow: 0px 0px 5px 1px #e4e5e5;
+
+		    td.main-link.clearfix {
+		    	padding-bottom: 29px !important;
+			    padding-top: 27px !important;
+			    padding-right: 27px !important;
+		    }
+
+		    .posters a:not(:first-child) {
+		    	display: none !important;
+		    }
 		}
 
 		.posters {
 			width: 4%;
+			padding-top: 15px !important;
+    		padding-left: 22px !important;
 
 			&>a {
 				margin-left: 7px;
@@ -552,6 +603,15 @@ body.tags-page.category-knowledge-base {
 
 	a.title.raw-link.raw-topic-link {
 		font-weight: bold;
+		font-size: 1.54rem !important;
+	}
+
+	.topic-thumbnails-list {
+		.topic-list-thumbnail {
+			margin-right: 29px !important;
+    		width: 180px !important;
+    		height: 130px !important;
+		}
 	}
 }
 
@@ -559,96 +619,17 @@ body.custom-sidebar.category.category-knowledge-base.staff .navigation-container
     margin-bottom: 15px;
 }
 
-
-/////////////////end toni
-
-body.custom-sidebar.category.category-knowledge-base a.title.raw-link.raw-topic-link, body.tags-page.category-knowledge-base a.title.raw-link.raw-topic-link {
-    font-size: 1.54rem !important;
-}
-
-body.custom-sidebar.category.category-knowledge-base .topic-list-item td.main-link.clearfix, body.tags-page.category-knowledge-base .topic-list-item td.main-link.clearfix {
-    padding-bottom: 29px !important;
-    padding-top: 27px !important;
-    padding-right: 27px !important;
-}
-
-body.custom-sidebar.category.category-knowledge-base .topic-list-item .posters a:not(:first-child), 
-body.tags-page.category-knowledge-base .topic-list-item .posters a:not(:first-child) {
-    display: none !important;
-}
-
-body.custom-sidebar.category.category-knowledge-base .topic-list .posters, body.tags-page.category-knowledge-base .topic-list .posters {
-    padding-top: 15px !important;
-    padding-left: 22px !important;
-}
-
-body.custom-sidebar.category.category-knowledge-base .topic-thumbnails-list .topic-list-thumbnail, 
-body.tags-page.category-knowledge-base .topic-thumbnails-list .topic-list-thumbnail {
-    margin-right: 29px !important;
-    width: 180px !important;
-    height: 130px !important;
-}
-
-body.custom-sidebar.category.category-knowledge-base .category-sidebar-knowledge-base .cooked {
-    padding: 1.5em 1.1em !important;
-}
-
-.custom-sidebar.sidebar-right .contents>.topic-list {
-    grid-template-columns: 77.5% 25.5% !important;
-    grid-column-gap: 1%;
-}
-
-body.custom-sidebar.category.category-knowledge-base table.shared-drafts {
-	margin-top: -30px !important;
-}
-
-body.custom-sidebar.category.category-knowledge-base table.shared-drafts td.num.age.activity {
-	margin-top: 56px !important;
-}
-
-body.custom-sidebar.category.category-knowledge-base .topic-list tr.topic-list-item-separator td {
-	padding: 15px !important;
-}
-
-body.custom-sidebar.category.category-knowledge-base .contents>.topic-list>.category-sidebar {
-	position: relative !important;
-}
-
 @media screen and (min-width: 767px) {
-body:not(.category-knowledge-base).custom-sidebar .contents>.topic-list thead {
-    grid-area: unset !important;
-}
-body:not(.category-knowledge-base).custom-sidebar .contents>.topic-list tbody {
-    grid-area: unset !important;
-}
-}
-
-body.custom-sidebar.category.category-knowledge-base .category-sidebar {
-	top: 0px !important;
+body:not(.category-knowledge-base).custom-sidebar {
+	.contents>.topic-list {
+		thead,
+		tbody {
+			grid-area: unset !important;
+		}
+	}
 }
 
 /*end topic list changes*/
-
-/*tags color change*/
-/*
-body.category.archetype-regular.category-knowledge-base .topic-header-extra a[data-tag-name="webmethods"] {
-    background: yellowgreen !important;
-    color: white !important;
-}
-
-body.category.archetype-regular.category-knowledge-base .topic-header-extra a[data-tag-name="integration-and-esb"] {
-    background: cadetblue !important;;
-    color: white !important;
-}
-
-body.category.archetype-regular.category-knowledge-base .topic-header-extra a[data-tag-name="webmethods-io-integration"] {
-    background: coral !important;;
-    color: white !important;
-}
-*/
-
-/*end tags color change*/
-
 
 /*KB subcategory Video changes*/
 body.category.archetype-regular.category-knowledge-base-video #post_1 .topic-avatar {
