@@ -124,7 +124,7 @@ body.category.archetype-regular.category-knowledge-base-video {
 body.category.archetype-regular.category-knowledge-base {
 	.topic-list {
 		.discourse-tags { 
-    			margin-left: -5px !important;
+    		margin-left: -5px !important;
 		}
 	}
 
@@ -135,7 +135,22 @@ body.category.archetype-regular.category-knowledge-base {
 
 		.topic-meta-data {
 			flex-direction: unset !important;
-	    		margin-left: 15px !important;
+	    	margin-left: 15px !important;
+		}
+	}
+	
+	/*Reply button changes in KB*/
+	#topic-footer-buttons {
+		button.create {
+			float: left !important;
+
+			&:after {
+				content: "Leave a comment";
+			}
+
+			span.d-button-label {
+			    display: none !important;
+			}
 		}
 	}
 }
@@ -355,21 +370,6 @@ body.custom-sidebar.category.category-knowledge-base .category-sidebar-contents 
 body.category.archetype-regular.category-knowledge-base .container.posts {
     display: block !important;
 }
-
-/*Reply button changes in KB*/
-
-body.category.archetype-regular.category-knowledge-base #topic-footer-buttons button[aria-label="Reply"] {
-	float: left !important;
-}
-
-body.archetype-regular.category.category-knowledge-base #topic-footer-buttons button[aria-label="Reply"]:after {
-	content: "Leave a comment";
-}
-
-body.archetype-regular.category.category-knowledge-base #topic-footer-buttons button[aria-label="Reply"] span.d-button-label {
-	display: none !important;
-}
-/*end Reply button changes*/
 
 /*end topic-sidebar changes*/
 
