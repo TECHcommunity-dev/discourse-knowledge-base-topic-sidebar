@@ -155,6 +155,14 @@ body.category.archetype-regular.category-knowledge-base {
 	}
 }
 
+body.archetype-regular.category-drafts,
+body.archetype-regular.category-knowledge-base {
+    .topic-body iframe {
+        width: 815px !important;
+        height: 450px !important;
+    }
+}
+
 /*end topic-body changes*/
 
 // topic-meta-data changes
