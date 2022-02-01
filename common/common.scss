@@ -265,3 +265,32 @@ body.category.archetype-regular.category-knowledge-base-video {
 		margin-top: 1em;
 	}
 }
+
+//fixing disco toc
+@media (min-width: 1024px) {
+    body.category.archetype-regular.category-knowledge-base.d-toc-timeline-visible .container.posts {
+        display: grid !important;
+    
+        .topic-navigation {
+            .d-toc-main {
+                #d-toc {
+                    margin-left: -18px;
+                }
+            }
+        }
+    }
+}
+
+body.category.archetype-regular.category-knowledge-base .container.posts .topic-navigation {
+    margin-left: 1em !important;
+    
+    .d-toc-main {
+        border-left: 0px !important;
+    }
+}
+
+body.archetype-regular.d-toc-timeline-visible.category-drafts .container.posts .topic-navigation {
+    margin-left: -1.5em !important;
+}
+
+// end fixing disco toc
