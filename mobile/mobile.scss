@@ -52,19 +52,9 @@ body.category.archetype-regular.category-knowledge-base,
 body.category.archetype-regular.category-knowledge-base-video {
     .title-wrapper .topic-category {
         .badge-wrapper {
-            top: -5px !important;
+            top: -15px !important;
         }
     }
 }
 
 /*end topic-body changes*/
-
-body.category.archetype-regular.category-knowledge-base,
-body.category.archetype-regular.category-knowledge-base-video {
-    .title-wrapper .topic-category {
-        .badge-wrapper {
-            top: -16px;
-        }
-    }
-}
-
