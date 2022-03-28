@@ -483,8 +483,6 @@ body.tags-page.category-knowledge-base {
 
 body.custom-sidebar.category.category-knowledge-base {
 	.topic-list {
-		margin-top: -32px !important;
-
 		thead {
 			th.activity {
 			    display: none !important;
@@ -507,7 +505,7 @@ body.custom-sidebar.category.category-knowledge-base {
 	}
 
 	.category-sidebar-knowledge-base {
-	    margin-top: 12px;
+		margin-top: 12px;
 	    width: 290px;
 
 	    p {
@@ -546,10 +544,6 @@ body.custom-sidebar.category.category-knowledge-base {
 
 }
 
-body.custom-sidebar.category.category-knowledge-base.staff .navigation-container {
-    margin-bottom: 15px;
-}
-
 @media screen and (min-width: 767px) {
 body:not(.category-knowledge-base).custom-sidebar {
 	.contents>.topic-list {
@@ -560,6 +554,41 @@ body:not(.category-knowledge-base).custom-sidebar {
 	}
 }
 }
+
+/* Fix the overlapping issue of KB topic list over the topic navigation contols. [Added by: Saurabh; Date: 28-03-2022] */
+body:not(.staff).category-knowledge-base.custom-sidebar .contents>.topic-list {
+	grid-template-rows: 0 auto !important;
+}
+
+body:not(.staff).category-knowledge-base.custom-sidebar .topic-list thead {
+    display: none;
+}
+
+body:not(.staff).category-knowledge-base.custom-sidebar .contents>.topic-list>.category-sidebar {
+	margin-top:0px;
+}
+
+body:not(.staff).category-knowledge-base.custom-sidebar .category-sidebar-knowledge-base {
+	margin-top: 0px !important;
+	.cooked {
+		padding: 0 1.1em 1.5em 1.1em !important;
+	}
+}
+
+body:not(.staff).category-knowledge-base .container.list-container {
+    margin-top: 20px;
+}
+body.category-knowledge-base .container.list-container {
+    margin-top: 10px;
+}
+
+body.category.category-knowledge-base .category-boxes, .category-boxes-with-topics{
+    margin-top: 0 !important; 
+     margin-bottom: 0 !important;
+}
+
+/* End Fix  for the overlapping issue of KB topic list over the topic navigation contols.*/
+
 /*end topic list changes*/
 
 /*KB subcategory Video changes*/
@@ -608,14 +637,18 @@ body.category.archetype-regular.category-knowledge-base-video .container.posts {
 
 
 /*KB sidebar on tag pages*/
-body.category-header.tags-page.category-knowledge-base .topic-list 
-{
-    margin-top: -50px !important;
+
+body.tags-page.category-knowledge-base.custom-sidebar.sidebar-right .contents>.topic-list {
+	grid-template-rows: 0 auto !important;
+}
+
+body.tags-page.category-knowledge-base.custom-sidebar .contents>.topic-list>.category-sidebar, body.tags-page.category-knowledge-base.custom-sidebar .category-sidebar-knowledge-base {
+	margin-top:0px !important;
 }
 
 body.category-header.tags-page.category-knowledge-base .topic-list thead, body.tags-page.category-knowledge-base .topic-list thead {
     //visibility: hidden;
-    display: none;
+    display: none !important;
 }
 
 body.category-header.tags-page.category-knowledge-base .topic-list tbody, body.tags-page.category-knowledge-base .topic-list tbody {
@@ -735,8 +768,8 @@ body.category-header.tags-page.category-knowledge-base .topic-thumbnails-list .t
     height: 130px !important;
 }
 
-body.category-header.tags-page.category-knowledge-base .category-sidebar-knowledge-base .cooked {
-    padding: 1.5em 1.1em !important;
+body.tags-page.category-knowledge-base.custom-sidebar .category-sidebar-knowledge-base .cooked {
+    padding: 0 1.1em 1.5em 1.1em !important;
 }
 
 
@@ -821,10 +854,6 @@ body.category-header.tags-page.category-knowledge-base .category-sidebar-content
 
 body.category-header.tags-page.category-knowledge-base .category-sidebar-contents div.cooked p:first-of-type {
     margin-top: 0 !important;
-}
-
-body.tags-page.category-knowledge-base.custom-sidebar .topic-list {
-    margin-top: -50px !important;
 }
 
 
