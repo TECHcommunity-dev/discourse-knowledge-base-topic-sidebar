@@ -30,13 +30,13 @@ body.tags-page.category-knowledge-base .topic-list-thumbnail.no-thumbnail {
     display: none;
 }
 
+//Remove the display: none property to display  the category link on the Knowledge Base category page toppic-list. [Modified by: Saurabh; Date: 15-04-2022]
 body.custom-sidebar.category.category-knowledge-base .link-bottom-line a.badge-wrapper.none, 
 body.tags-page.category-knowledge-base .link-bottom-line a.badge-wrapper.none,
 body.custom-sidebar.category.category-knowledge-base .topic-item-stats a.badge-wrapper.none, 
 body.tags-page.category-knowledge-base .topic-item-stats a.badge-wrapper.none {
     margin-top: 2px;
     margin-bottom: 4px;
-    display: none;
 }
 
 body.custom-sidebar.category.category-knowledge-base .topic-list .main-link a.title.raw-topic-link, 
