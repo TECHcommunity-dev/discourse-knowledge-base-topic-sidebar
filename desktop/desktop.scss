@@ -424,6 +424,11 @@ body.tags-page.category-knowledge-base {
 				margin-left: 7px;
     			margin-top: 17px;
 			}
+
+			img.avatar {
+				width: 35px;
+				height: 35px;
+			}
 		}
 
 		.num.activity a {
@@ -441,11 +446,6 @@ body.tags-page.category-knowledge-base {
 	.likes,
 	.posts {
 		display: none !important;
-	}
-
-	img.avatar {
-		width: 35px;
-    	height: 35px;
 	}
 
 	td.main-link.clearfix {
@@ -673,11 +673,6 @@ body.category-header.tags-page.category-knowledge-base .topic-list .posts, body.
 body.category-header.tags-page.category-knowledge-base .topic-list .posters, body.tags-page.category-knowledge-base .topic-list .posters {
     width: 4%;
 } 
-
-body.category-header.tags-page.category-knowledge-base img.avatar, body.tags-page.category-knowledge-base img.avatar {
-    width: 35px;
-    height: 35px;
-}
 
 body.category-header.tags-page.category-knowledge-base .topic-list .posters>a, body.tags-page.category-knowledge-base .topic-list .posters>a {
     margin-left: 7px;
