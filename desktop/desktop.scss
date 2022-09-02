@@ -499,9 +499,12 @@ body.custom-sidebar.category.category-knowledge-base {
 			}
 		}
 
-		tr.topic-list-item-separator td {
-		    padding: 15px !important;
-		}
+		tr.topic-list-item-separator {
+		    border-bottom: 10px solid transparent;
+		    td {
+		        padding: 0px !important;
+		    }
+		} 
 	}
 
 	.category-sidebar-knowledge-base {
