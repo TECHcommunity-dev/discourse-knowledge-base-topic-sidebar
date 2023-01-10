@@ -78,7 +78,8 @@ body.category.archetype-regular.category-knowledge-base .d-toc-post .d-toc-artic
 }
 
 body.category.archetype-regular.category-knowledge-base:not(.staff),
-body.category.archetype-regular.category-knowledge-base-video:not(.staff) {
+body.category.archetype-regular.category-knowledge-base-video:not(.staff),
+body.category.archetype-regular.category-knowledge-base-blog:not(.staff) {
 	.topic-meta-data div.edits {
 	    display: none;
 	}
