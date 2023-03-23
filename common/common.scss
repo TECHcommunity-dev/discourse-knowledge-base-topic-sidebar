@@ -172,20 +172,23 @@ body.category.category-header.category-knowledge-base-video .link-top-line {
 }
 
 body.category.category-header.category-knowledge-base-video .link-top-line:hover,
-body.category.category-header.category-knowledge-base-video .link-top-line:hover+.link-bottom-line,
-body.category.category-header.category-knowledge-base-video .link-bottom-line:hover,
 body.category.category-header.category-knowledge-base-video .topic-list-thumbnail:hover~.main-link .link-top-line,
-body.category.category-header.category-knowledge-base-video .topic-list-thumbnail:hover~.main-link .link-bottom-line,
-body.category.category-header.category-knowledge-base-video .topic-list-item:hover>.main-link .link-bottom-line,
 body.category.category-header.category-knowledge-base-video .topic-list-item:hover>.main-link .link-top-line {
     min-height: 4.5em !important;
+}
+
+body.category.category-header.category-knowledge-base-video .link-top-line:hover+.link-bottom-line,
+body.category.category-header.category-knowledge-base-video .link-bottom-line:hover,
+body.category.category-header.category-knowledge-base-video .topic-list-thumbnail:hover~.main-link .link-bottom-line,
+body.category.category-header.category-knowledge-base-video .topic-list-item:hover>.main-link .link-bottom-line {
+    min-height: 5em !important;
 }
 
 body.category.category-header.category-knowledge-base-video .link-bottom-line {
     overflow: hidden;
     position: relative;
     line-height: 1.1em;
-    max-height: 3em;
+    max-height: 3.4em;
     min-height: 3em;
     transition: 0.5s;
 }
@@ -295,3 +298,149 @@ body.archetype-regular.d-toc-timeline-visible.category-drafts .container.posts .
 }
 
 // end fixing disco toc
+
+.cooked h6, 
+.d-editor-preview h1 {
+	margin: 24px 0 10px;
+}
+body.category.archetype-regular.category-knowledge-base,
+body.category.archetype-regular.category-knowledge-base-video {
+    .cooked {
+		h1, h2, h3, h4, h5 {
+			margin: 24px 0 10px;
+		}
+	}
+	.d-editor-preview {
+		h2, h3, h4, h5, h6 {
+			margin: 24px 0 10px;
+		}
+	}
+}
+
+// Knowledge base category CSS moved from "TECHcommunity-customizations" component.
+.category-knowledge-base #list-area .show-more.has-topics {
+    top: 25px;
+}
+
+body.category.archetype-regular.category-knowledge-base .topic-body .contents h1 a,
+body.category.archetype-regular.category-knowledge-base .topic-body .contents h2 a,
+body.category.archetype-regular.category-knowledge-base .topic-body .contents h3 a{
+    color: #222 !important;
+}
+
+body.category.archetype-regular.category-knowledge-base h2, body.category.archetype-regular.category-knowledge-base h3 {
+    border-bottom: none !important;
+}
+
+.category-knowledge-base article nav.post-controls .actions {
+    padding-right: 1em;
+}
+
+body.category.archetype-regular.category-knowledge-base #post_1 .topic-body .topic-map {
+    margin-bottom: -1px;
+    margin-left: -27px;
+    display: block !important;
+    width: 863px;
+}
+
+body.category.archetype-regular.category-knowledge-base-video #post_1 .topic-body .topic-map {
+    margin-bottom: -1px;   
+    margin-left: -5px;
+    width: 865px;
+}
+
+.category-knowledge-base #post_1 .cooked p:first-child + div.lightbox-wrapper, .category-news #post_1 .cooked p:first-child + div.lightbox-wrapper, .category-drafts #post_1 .cooked p:first-child + div.lightbox-wrapper, .category-alfabet-user-group-meetings #post_1 .cooked p:first-child + div.lightbox-wrapper {
+    display: block !important;
+}
+
+.category.category-knowledge-base .shared-drafts {
+    display: none !important;
+}
+
+.category-knowledge-base .loading-container .topic-timer-info {
+    border-top: none;
+}
+
+.category-knowledge-base .time-gap.small-action .topic-avatar {
+    background: none !important;
+}
+
+//Modified to align the flair image on the KB and Video category topics. [Modified by: Saurabh; Date: 18-07-2022]
+//Flair icon CSS for KB/Videos/Draft categories [Modified by: Saurabh; Date: 18-01-2023]
+body{
+    &.category.archetype-regular.category-knowledge-base-video #post_1 {
+        .topic-avatar {
+            .post-avatar {
+                @include breakpoint(tablet, min-width) {
+                    .avatar-flair {
+                        top: 14px;
+                        right: -37px;
+                    }   
+                }
+            }
+        }
+    }
+    &.category.archetype-regular.category-knowledge-base #post_1 {
+        .topic-avatar {
+            .post-avatar {
+                .avatar-flair {
+                    top: 16px;
+                    right: -6px;
+                    .d-icon {
+                        font-size: 1rem !important;
+                        height: 1em;
+                        width: 1em;
+                    }
+                }
+            }
+        }
+    }
+    &.category.archetype-regular.category-drafts #post_1 {
+        .topic-avatar {
+            .post-avatar {
+                .avatar-flair.avatar-flair-team.rounded {
+                    left: -3px !important;
+                }
+            }
+        }
+    }
+    &.category-knowledge-base,
+    &.category-knowledge-base-video {
+        article {
+            .topic-avatar {
+                width: 20px !important;
+                padding-left: 6px;
+    		    padding-top: 8px;
+                
+                img.avatar {
+                    width: 26px !important;
+                    height: 26px !important;
+                }
+                
+                .post-avatar {
+                    .avatar-flair {
+                        top: 12px;
+                        right: -12px;
+                        
+                    }
+                    .avatar-flair.avatar-flair-image {
+                        background-size: 12px 12px !important;
+                        width: 15px !important;
+                        height: 15px!important;
+                        top: unset !important;
+                        bottom: -3px !important;
+                        right: -3px;
+                        &.avatar-flair-team {
+                            left: -6px !important;
+                        }
+                    }
+                    
+                }
+            }
+            &:not(#post_1) .topic-avatar {
+                height: auto;
+            }
+        }
+    }
+} 
+//End of Flair icon CSS for KB/Videos/Draft categories
