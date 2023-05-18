@@ -322,11 +322,12 @@ body.category.archetype-regular.category-knowledge-base-video {
     top: 25px;
 }
 
-body.category.archetype-regular.category-knowledge-base .topic-body .contents h1 a,
+// comment css to removed style on knowleage base page that makes links in headings black; Binjan; 2023.05.18
+/*body.category.archetype-regular.category-knowledge-base .topic-body .contents h1 a,
 body.category.archetype-regular.category-knowledge-base .topic-body .contents h2 a,
 body.category.archetype-regular.category-knowledge-base .topic-body .contents h3 a{
     color: #222 !important;
-}
+}*/
 
 body.category.archetype-regular.category-knowledge-base h2, body.category.archetype-regular.category-knowledge-base h3 {
     border-bottom: none !important;
