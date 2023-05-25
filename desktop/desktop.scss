@@ -345,22 +345,21 @@ body.category.archetype-regular.category-knowledge-base-video .topic-sidebar a:h
     color: blue !important;
 }
 
-body.custom-sidebar.category.category-knowledge-base .category-sidebar-contents div.cooked p:first-of-type a {
-    font-size: 1.1em;
-              font-weight: bold;
-              color: #656565;
-             // border-bottom: 1px solid var(--primary-low) !important;
+body.custom-sidebar.category.category-knowledge-base .category-sidebar-contents div.cooked p:first-of-type,
+body.custom-sidebar.category.category-knowledge-base .category-sidebar-contents div.cooked p:nth-of-type(2),
+body.category-header.tags-page.category-knowledge-base .category-sidebar-contents div.cooked p:nth-of-type(2){
+	
+	margin-top: 0 !important;
+	
+	a {
               display: block !important;
               padding: 10px 0px;
               font-weight: unset;
+	}
 }
 
 body.custom-sidebar.category.category-knowledge-base .category-sidebar-contents div.cooked br {
     display: none !important;
-}
-
-body.custom-sidebar.category.category-knowledge-base .category-sidebar-contents div.cooked p:first-of-type {
-    margin-top: 0 !important;
 }
 
 
