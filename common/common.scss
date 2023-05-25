@@ -142,7 +142,9 @@ body.archetype-regular.category.category-knowledge-base .topic-body .md-table:fi
 body.archetype-regular.category.category-knowledge-base .topic-body .md-table:first-of-type a[href*="http://techcommunity.softwareag.com/ecosystem/download/techniques/"],
 body.archetype-regular.category.category-knowledge-base .topic-body .md-table:first-of-type a[href*="http://techcommunity.softwareag.com/protected/download/techniques/"],
 body.archetype-regular.category.category-knowledge-base .topic-body .md-table:first-of-type a[href*="http://communities.softwareag.com/protected/download/techniques"],
-body.archetype-regular.category.category-knowledge-base .topic-body .md-table:first-of-type a[href*="http://communities.softwareag.com/download/techniques/"]
+body.archetype-regular.category.category-knowledge-base .topic-body .md-table:first-of-type a[href*="http://communities.softwareag.com/download/techniques/"],
+body.archetype-regular.category.category-knowledge-base div.topic-post a[href*="http://techcommunity.softwareag.com/ecosystem/download/techniques"],
+body.archetype-regular.category.category-knowledge-base div.topic-post a[href*="http://techcommunity.softwareag.com/protected/download/techniques"]
 {
     display: none !important;
 }
