@@ -213,9 +213,10 @@ body.category.category-header.category-knowledge-base-video .topic-thumbnails-ma
     top: -37px;
 }
 
-body.category.category-header.category-knowledge-base-video .topic-thumbnails-masonry .topic-list-item {
+/* Binjan; 2023.07.11; Comment height CSS to solve issue of overlapping video items on https://tech.forums.softwareag.com/c/knowledge-base/video/8 page */
+/*.category.category-header.category-knowledge-base-video .topic-thumbnails-masonry .topic-list-item {
     height: 332px !important;
-}
+}*/
 
 body.category.category-header.category-knowledge-base-video .topic-thumbnails-masonry .topic-list-item:hover .main-thumbnail {
     opacity: 0.5;
