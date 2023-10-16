@@ -251,11 +251,12 @@ body.category.archetype-regular.category-knowledge-base-video {
             position: absolute;
             
             .badge-category {
-	             margin-left: 5px;
-            }
+                /*margin-left: 5px;*/ /* Commented by Binjan; 2023.10.16 */
+                padding-left: 2px; /* Added by Binjan; 2023.10.16 */  
+            } 
 
             &:nth-of-type(2) {
-            	padding-left: 163px;
+            	margin-left: 170px; /* Updated by Binjan; 2023.10.16 */
             }
         
             &:first-child:before {
