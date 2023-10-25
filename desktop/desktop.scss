@@ -850,23 +850,3 @@ body.category.archetype-regular.category-knowledge-base-video {
 	    margin-bottom: 0 !important;
     }
 }
-
-body.category.archetype-regular.category-knowledge-base,
-body.category.archetype-regular.category-knowledge-base-video {
-    .title-wrapper .topic-category {
-        .badge-wrapper {
-            top: 130px; /* changed by Binjan; 2023.01.23 */
-	    }
-	}
-}
-
-.composer-open {
-	.category.archetype-regular.category-knowledge-base,
-    .category.archetype-regular.category-knowledge-base-video {
-		.title-wrapper .topic-category {
-            .badge-wrapper {
-            	top: 80px;
-		    }
-		}
-    }
-}    
