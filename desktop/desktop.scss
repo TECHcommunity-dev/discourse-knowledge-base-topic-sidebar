@@ -512,8 +512,8 @@ body.custom-sidebar.category.category-knowledge-base {
 	}
 
 	.contents>.topic-list {
-	    grid-template-columns: 77.5% 25.5% !important;
-	    grid-column-gap: 1%;
+	    grid-template-columns: 74% 24% !important;
+	    grid-column-gap: 2%;
 
 	    &>.category-sidebar {
 		    position: relative !important;
@@ -543,6 +543,8 @@ body:not(.category-knowledge-base).custom-sidebar {
 
 /* Fix the overlapping issue of KB topic list over the topic navigation contols. [Added by: Saurabh; Date: 28-03-2022] */
 body:not(.staff).category-knowledge-base.custom-sidebar .contents>.topic-list {
+	grid-template-columns: 74% 24% !important; 	/* Binjan; 2023.10.27 */
+	grid-column-gap: 2%;						/* Binjan; 2023.10.27 */
 	grid-template-rows: 0 auto !important;
 }
 
@@ -625,6 +627,8 @@ body.category.archetype-regular.category-knowledge-base-video .container.posts {
 /*KB sidebar on tag pages*/
 
 body.tags-page.category-knowledge-base.custom-sidebar.sidebar-right .contents>.topic-list {
+	grid-template-columns: 74% 24% !important; 	/* Binjan; 2023.10.27 */
+	grid-column-gap: 2%; 						/* Binjan; 2023.10.27 */
 	grid-template-rows: 0 auto !important;
 }
 
