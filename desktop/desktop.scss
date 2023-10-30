@@ -308,7 +308,7 @@ body.custom-sidebar.category.category-knowledge-base .category-sidebar-contents 
     margin: 0 !important;
     font-size: 2em;
     opacity: 1;
-    padding-left: 37px;
+    padding-left: 25px; /* Binjan; 2023.10.30 */
     padding-top: 20px;
     filter: invert(61%) sepia(4%) saturate(12%) hue-rotate(90deg) brightness(100%) contrast(89%);
 }
@@ -512,7 +512,7 @@ body.custom-sidebar.category.category-knowledge-base {
 	}
 
 	.contents>.topic-list {
-	    grid-template-columns: 74% 24% !important;
+	    grid-template-columns: 77.5% 20.5% !important; /* Binjan; 2023.10.30 */
 	    grid-column-gap: 2%;
 
 	    &>.category-sidebar {
@@ -543,8 +543,8 @@ body:not(.category-knowledge-base).custom-sidebar {
 
 /* Fix the overlapping issue of KB topic list over the topic navigation contols. [Added by: Saurabh; Date: 28-03-2022] */
 body:not(.staff).category-knowledge-base.custom-sidebar .contents>.topic-list {
-	grid-template-columns: 74% 24% !important; 	/* Binjan; 2023.10.27 */
-	grid-column-gap: 2%;						/* Binjan; 2023.10.27 */
+	grid-template-columns: 77.5% 20.5% !important; 	/* Binjan; 2023.10.30 */
+	grid-column-gap: 2%;							/* Binjan; 2023.10.27 */
 	grid-template-rows: 0 auto !important;
 }
 
@@ -627,8 +627,8 @@ body.category.archetype-regular.category-knowledge-base-video .container.posts {
 /*KB sidebar on tag pages*/
 
 body.tags-page.category-knowledge-base.custom-sidebar.sidebar-right .contents>.topic-list {
-	grid-template-columns: 74% 24% !important; 	/* Binjan; 2023.10.27 */
-	grid-column-gap: 2%; 						/* Binjan; 2023.10.27 */
+	grid-template-columns: 77.5% 20.5% !important; 	/* Binjan; 2023.10.30 */
+	grid-column-gap: 2%; 							/* Binjan; 2023.10.27 */
 	grid-template-rows: 0 auto !important;
 }
 
@@ -787,7 +787,7 @@ body.category-header.tags-page.category-knowledge-base .category-sidebar-content
     margin: 0 !important;
     font-size: 2em;
     opacity: 1;
-    padding-left: 37px;
+    padding-left: 25px; /* Binjan; 2023.10.30 */
     padding-top: 20px;
     filter: invert(61%) sepia(4%) saturate(12%) hue-rotate(90deg) brightness(100%) contrast(89%);
 }
