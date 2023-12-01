@@ -36,7 +36,13 @@ body.category.archetype-regular.category-knowledge-base-video .title-wrapper .ba
 
 /*topic-body changes*/
 body.category.archetype-regular.category-knowledge-base .topic-meta-data {
-    margin-left: 30px !important;
+    margin-left: 38px !important; /* Binjan; 2023.11.30; css adjust */
+    display: block; /* added by Binjan; 2023.11.30 */
+
+    /* added by Binjan; 2023.11.30; adjust updated/created date css in knowledge-base */
+    .post-infos {
+        display: inline-block;
+    }
 }
 
 body.category.archetype-regular.category-knowledge-base .topic-meta-data div.edits {
@@ -50,10 +56,8 @@ body.category.archetype-regular.category-knowledge-base #post_1 .topic-body .top
 
 body.category.archetype-regular.category-knowledge-base,
 body.category.archetype-regular.category-knowledge-base-video {
-    .title-wrapper .topic-category {
-        .badge-wrapper {
-            top: -15px !important;
-        }
+    .post-info {
+        display: flex;
     }
 }
 
