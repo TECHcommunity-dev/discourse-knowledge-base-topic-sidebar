@@ -553,7 +553,7 @@ body:not(.staff).category-knowledge-base.custom-sidebar .contents>.topic-list {
 }
 
 body.category-knowledge-base.custom-sidebar .topic-list thead {
-    display: none;
+    display: none !important;
 }
 
 body:not(.staff).category-knowledge-base.custom-sidebar .contents>.topic-list>.category-sidebar {
