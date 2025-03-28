@@ -552,7 +552,7 @@ body:not(.staff).category-knowledge-base.custom-sidebar .contents>.topic-list {
 	grid-template-rows: 0 auto !important;
 }
 
-body:not(.staff).category-knowledge-base.custom-sidebar .topic-list thead {
+body.category-knowledge-base.custom-sidebar .topic-list thead {
     display: none;
 }
 
