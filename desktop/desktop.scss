@@ -546,7 +546,7 @@ body:not(.category-knowledge-base).custom-sidebar {
 }
 
 /* Fix the overlapping issue of KB topic list over the topic navigation contols. [Added by: Saurabh; Date: 28-03-2022] */
-body:not(.staff).category-knowledge-base.custom-sidebar .contents>.topic-list {
+body.category-knowledge-base.custom-sidebar .contents>.topic-list {
 	grid-template-columns: 77.5% 20.5% !important; 	/* Binjan; 2023.10.30 */
 	grid-column-gap: 2%;							/* Binjan; 2023.10.27 */
 	grid-template-rows: 0 auto !important;
@@ -556,18 +556,18 @@ body.category-knowledge-base.custom-sidebar .topic-list thead {
     display: none !important;
 }
 
-body:not(.staff).category-knowledge-base.custom-sidebar .contents>.topic-list>.category-sidebar {
+body.category-knowledge-base.custom-sidebar .contents>.topic-list>.category-sidebar {
 	margin-top:0px;
 }
 
-body:not(.staff).category-knowledge-base.custom-sidebar .category-sidebar-knowledge-base {
+body.category-knowledge-base.custom-sidebar .category-sidebar-knowledge-base {
 	margin-top: 0px !important;
 	.cooked {
 		padding: 0 1.1em 1.5em 1.1em !important;
 	}
 }
 
-body:not(.staff).category-knowledge-base .container.list-container {
+body.category-knowledge-base .container.list-container {
     margin-top: 20px;
 }
 body.category-knowledge-base .container.list-container {
