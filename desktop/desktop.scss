@@ -858,3 +858,13 @@ body.category.archetype-regular.category-knowledge-base-video {
 	    margin-bottom: 0 !important;
     }
 }
+body.staff .topic-list .category-sidebar {
+	display:none;
+}
+body.staff .list-area .category-sidebar {
+	display:none;
+}
+
+body.staff .list-area .contents .category-sidebar {
+	display:initial !important;
+}
